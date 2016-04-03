@@ -76,6 +76,17 @@
     <Compile Include="DataGrammars\SampleCsvGrammar.cs" />
     <Compile Include="FullTextSearchQueryConverter\SearchGrammar.cs" />
     <Compile Include="DataGrammars\JsonGrammar.cs" />
+    <Compile Include="Gomes\FreightGrammer.cs" />
+    <Compile Include="Gomes\IJavascriptGenerator.cs" />
+    <Compile Include="Gomes\Nodes\BinaryOperatorNode.cs" />
+    <Compile Include="Gomes\Nodes\ExpressionNode.cs" />
+    <Compile Include="Gomes\Nodes\FreightDeclarationNode.cs" />
+    <Compile Include="Gomes\Nodes\IfStatementNode.cs" />
+    <Compile Include="Gomes\Nodes\OrderLoopNode.cs" />
+    <Compile Include="Gomes\Nodes\ProgramNode.cs" />
+    <Compile Include="Gomes\Nodes\SetVariableNode.cs" />
+    <Compile Include="Gomes\Nodes\StatementListNode.cs" />
+    <Compile Include="Gomes\Nodes\StatementNode.cs" />
     <Compile Include="Java\JavaGrammar.cs" />
     <Compile Include="Java\JavaGrammar.Static.cs" />
     <Compile Include="Java\JavaGrammar.Syntax.cs" />
